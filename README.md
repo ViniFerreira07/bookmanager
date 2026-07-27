@@ -26,6 +26,16 @@ Regras atuais do catálogo:
 
 Pré-requisito: Docker Desktop ativo.
 
+### Rodar em outra máquina (clone + up)
+
+```powershell
+git clone <url-do-repo>
+cd bookmanager
+docker compose up
+```
+
+Opcional: para personalizar portas, banco e JWT, copie `.env.example` para `.env` antes de subir.
+
 ```powershell
 docker compose up --build
 ```
