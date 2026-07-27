@@ -1,0 +1,2 @@
+ALTER TABLE books DROP CONSTRAINT IF EXISTS books_created_by_fkey;
+ALTER TABLE books DROP COLUMN IF EXISTS created_by;

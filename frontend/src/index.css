@@ -1,0 +1,66 @@
+:root {
+  font-family: Inter, 'Segoe UI', sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: #f4f4f5;
+  background: #0a0a0b;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  --ath-bg: #0a0a0b;
+  --ath-surface: #121214;
+  --ath-card: #18181b;
+  --ath-card-soft: #202024;
+  --ath-border: rgba(255, 255, 255, 0.08);
+  --ath-muted: #a1a1aa;
+  --ath-primary: #6366f1;
+  --ath-success: #10b981;
+  --ath-warning: #f59e0b;
+  --ath-danger: #ef4444;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background:
+    radial-gradient(circle at 18% 0%, rgba(99, 102, 241, 0.18), transparent 34rem),
+    radial-gradient(circle at 90% 100%, rgba(236, 72, 153, 0.08), transparent 32rem),
+    var(--ath-bg);
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+h2 {
+  margin-bottom: 14px;
+}
+
+button {
+  font: inherit;
+}
+
+::selection {
+  background: rgba(99, 102, 241, 0.35);
+}
+
+.swal2-container {
+  z-index: 2000 !important;
+}

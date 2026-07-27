@@ -1,0 +1,25 @@
+# Java
+backend/target/
+backend/.idea/
+backend/.classpath
+backend/.project
+backend/.settings/
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.vite/
+frontend/.eslintcache
+
+# Env
+.env
+.env.local
+backend/.env
+frontend/.env
+
+# Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
