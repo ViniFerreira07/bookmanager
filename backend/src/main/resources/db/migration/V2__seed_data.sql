@@ -4,5 +4,5 @@ INSERT INTO users (id, username, email, password, role, created_at, updated_at, 
 
 INSERT INTO books (title, author, year, description, cover_url, created_by) VALUES
   ('Clean Code', 'Robert C. Martin', 2008, 'A handbook of agile software craftsmanship.', 'https://images.unsplash.com/photo-1512820790803-83ca734da794', '11111111-1111-1111-1111-111111111111'),
-  ('Spring in Action', 'Craig Walls', 2021, 'A practical guide to Spring Boot and enterprise Java.', 'https://images.unsplash.com/photo-1516979187454-437ec0f68d0c', '22222222-2222-2222-2222-222222222222'),
+  ('Spring in Action', 'Craig Walls', 2021, 'A practical guide to Spring Boot and enterprise Java.', 'https://m.media-amazon.com/images/S/compressed.photo.goodreads.com/books/1348797678i/428588.jpg', '22222222-2222-2222-2222-222222222222'),
   ('Domain-Driven Design', 'Eric Evans', 2003, 'A classic introduction to strategic design.', 'https://images.unsplash.com/photo-1524995997946-a1c2e315a42f', '11111111-1111-1111-1111-111111111111');
